@@ -1,5 +1,5 @@
 const express = require('express');
-const { getUsersWithPostCount } = require('./controllers/user.controller');
+const {getUsersWithPostCount, getUsersWithPostCountSlow} = require('./controllers/user.controller');
 
 const app = express();
 

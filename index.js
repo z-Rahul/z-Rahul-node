@@ -2,7 +2,7 @@ const chalk = require('chalk');
 const app = require('./src/app');
 const dotenv = require('dotenv');
 dotenv.config()
-const { connect } = require('./src/helpers/db.helper');
+const {connect} = require('./src/helpers/db.helper');
 
 connect().then(() => {
     const port = process.env.PORT
